@@ -14,6 +14,6 @@ jobs:
       - uses: huggingface/hub-sync@v0.1.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: username/repo-name
+          huggingface_repo_id: deependujha/learning-hf 
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: model
