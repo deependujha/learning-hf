@@ -3,6 +3,9 @@ on:
   push:
     branches: [main]
 
+env:
+  HF_DEBUG: 1
+
 jobs:
   sync:
     runs-on: ubuntu-latest
